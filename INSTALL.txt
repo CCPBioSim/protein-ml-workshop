@@ -1,0 +1,10 @@
+Prerequisites:
+None
+
+Requirements:
+mdtraj
+matplotlib
+jupyter
+mdplus
+scipy
+nglview
