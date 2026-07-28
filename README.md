@@ -1,7 +1,7 @@
 # CCPBioSim Protein Machine Learning Workshop
 
 [![ci](https://github.com/ccpbiosim/protein-ml-workshop/actions/workflows/build.yaml/badge.svg?branch=main)](https://github.com/ccpbiosim/protein-ml-workshop/actions/workflows/build.yaml)
-[![latest](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fccpbiosim.github.io%2Fworkshop.json&query=%24.containers.protein-ml-workshop.latest&labelColor=grey&logo=github&logoColor=white&label=latest&color=purple)](https://github.com/ccpbiosim/protein-ml-workshop/pkgs/container/protein-ml-workshop)
+[![latest](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fccpbiosim.github.io%2Fassets.json&query=%24.containers.protein-ml-workshop.latest&labelColor=grey&logo=github&logoColor=white&label=latest&color=purple)](https://github.com/ccpbiosim/protein-ml-workshop/pkgs/container/protein-ml-workshop)
 [![issues](https://img.shields.io/github/issues/ccpbiosim/protein-ml-workshop?logo=github&labelColor=grey)](https://github.com/CCPBioSim/protein-ml-workshop/issues)
 [![pr](https://img.shields.io/github/issues-pr/ccpbiosim/protein-ml-workshop?logo=github&labelColor=grey)](https://github.com/CCPBioSim/protein-ml-workshop/pulls)
 
