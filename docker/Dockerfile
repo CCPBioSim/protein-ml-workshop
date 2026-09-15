@@ -9,8 +9,16 @@ USER $NB_USER
 WORKDIR $HOME
 
 # Install workshop deps
-RUN mamba install -c conda-forge matplotlib mdtraj nglview scipy -y
-RUN pip install mdplus
+RUN conda install -y -c conda-forge \
+    matplotlib=3.11.1 \
+    mdtraj=1.11.1 \
+    nglview=4.0.1 \
+    scipy=1.18.1
+RUN pip install --no-cache-dir \
+    mdplus==0.1.2
+
+COPY docker/fix-nglview.sh /tmp/fix-nglview.sh
+RUN bash /tmp/fix-nglview.sh
 
 # Get workshop files and move them to jovyan directory.
 COPY --chown=1000:100 . .
