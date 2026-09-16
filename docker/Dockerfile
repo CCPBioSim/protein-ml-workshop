@@ -10,10 +10,10 @@ WORKDIR $HOME
 
 # Install workshop deps
 RUN conda install -y -c conda-forge \
-    matplotlib=3.11.1 \
-    mdtraj=1.11.1 \
-    nglview=4.0.1 \
-    scipy=1.18.1
+    conda-forge::matplotlib=3.11.1 \
+    conda-forge::mdtraj=1.11.1 \
+    conda-forge::nglview=4.0.1 \
+    conda-forge::scipy=1.18.1
 RUN pip install --no-cache-dir \
     mdplus==0.1.2
 
