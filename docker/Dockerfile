@@ -10,7 +10,7 @@ WORKDIR $HOME
 
 # Install workshop deps
 RUN conda install -y -c conda-forge \
-    conda-forge::matplotlib=3.11.1 \
+    conda-forge::matplotlib=3.11.2 \
     conda-forge::mdtraj=1.11.1 \
     conda-forge::nglview=4.0.1 \
     conda-forge::scipy=1.18.1
